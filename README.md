@@ -81,7 +81,8 @@ Key components include:
 - Requires precise alignment between the satellite and ground station.
 
 # Communication Architecture Diagram :
-![image](https://github.com/user-attachments/assets/4ea45f38-8952-43c5-8c00-dbddffdad1af)
+![communication arch diagram](https://github.com/user-attachments/assets/7e13023f-2048-4164-85b0-5701d63012a0)
+
 
 # Ground station architecture Diagram :
 ![ground arch diagram](https://github.com/user-attachments/assets/2405c00c-333d-495a-a0d3-c7140e0edbf8)
