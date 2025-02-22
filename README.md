@@ -60,7 +60,8 @@ Key components include:
 
 
 # Architecture Diagram :
-![architecture diagram](https://github.com/user-attachments/assets/54648819-6b75-4cb8-992c-eee1f9881fc0)
+![Arch diagram](https://github.com/user-attachments/assets/d2b5a5d1-e823-48b7-ace6-fffbf1adc2a6)
+
 
 
 # Laser Communication Details
