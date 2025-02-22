@@ -60,7 +60,8 @@ Key components include:
 
 
 # Architecture Diagram :
-![Arch diagram](https://github.com/user-attachments/assets/5f119143-a0f9-4485-bb2f-e543f761c4d6)
+![architecture diagram](https://github.com/user-attachments/assets/54648819-6b75-4cb8-992c-eee1f9881fc0)
+
 
 # Laser Communication Details
 - **Operating Wavelength**: 650nm (visible red laser), suitable for short-to-medium-range communication.
