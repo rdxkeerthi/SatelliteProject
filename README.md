@@ -83,6 +83,7 @@ Key components include:
 ![image](https://github.com/user-attachments/assets/4ea45f38-8952-43c5-8c00-dbddffdad1af)
 
 # Ground station architecture Diagram :
+![ground arch diagram](https://github.com/user-attachments/assets/2405c00c-333d-495a-a0d3-c7140e0edbf8)
 
 
 ## Laser Equipment
