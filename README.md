@@ -80,6 +80,10 @@ Key components include:
 - Performance may be affected by weather conditions like rain, clouds, or atmospheric turbulence.
 - Requires precise alignment between the satellite and ground station.
 
+# Satellite hardware Demo 
+
+![ChatGPT Image Apr 2, 2025, 08_54_57 PM](https://github.com/user-attachments/assets/c823369b-59e5-47ee-95a0-d3da04dc2c15)
+
 # Communication Architecture Diagram :
 ![communication arch diagram](https://github.com/user-attachments/assets/7e13023f-2048-4164-85b0-5701d63012a0)
 
@@ -106,3 +110,8 @@ The ground station will track and communicate with the satellite, featuring the 
 - **Communication Software**: Handles decoding, error correction, and data visualization.
 - **Power System**: Uninterruptible power supply (UPS) to ensure consistent operation.
 - **Weather Monitoring System**: Detects adverse weather conditions like clouds or rain that may affect laser communication.
+
+# Demo Satellite Architecture
+
+![ChatGPT Image Apr 2, 2025, 08_42_04 PM](https://github.com/user-attachments/assets/d7e56c4e-dcb7-4538-87e5-8b106d511567)
+
