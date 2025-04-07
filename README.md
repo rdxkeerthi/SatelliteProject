@@ -115,3 +115,6 @@ The ground station will track and communicate with the satellite, featuring the 
 
 ![ChatGPT Image Apr 2, 2025, 08_42_04 PM](https://github.com/user-attachments/assets/d7e56c4e-dcb7-4538-87e5-8b106d511567)
 
+# AOC Architecture 
+
+![ChatGPT Image Apr 7, 2025, 10_59_50 AM](https://github.com/user-attachments/assets/8738a35a-3571-4d6f-89c7-3d52f3352c4e)
