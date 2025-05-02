@@ -68,13 +68,13 @@ Key components include:
 - **Operating Wavelength**: 650nm (visible red laser), suitable for short-to-medium-range communication.
 - **Data Transfer Rate**: Offers much higher speeds compared to traditional RF communication, capable of gigabit-level transfer rates.
 - **Beam Precision**: Laser communication ensures highly focused beams, reducing interference and improving bandwidth utilization.
-- 
+  
 ## **Advantages**:
   
 - Low latency and high-speed transmission.
 - High security due to narrow beam divergence.
 - Reduced risk of signal interception.
-- 
+  
 ## **Challenges**:
 
 - Performance may be affected by weather conditions like rain, clouds, or atmospheric turbulence.
