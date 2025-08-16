@@ -62,7 +62,66 @@ Key components include:
 # Architecture Diagram :
 ![Arch diagram](https://github.com/user-attachments/assets/d2b5a5d1-e823-48b7-ace6-fffbf1adc2a6)
 
+```mermaid
+flowchart TD
+  %% ==============================
+  %% Satellite Payload
+  %% ==============================
+  subgraph Satellite_Payload["Satellite Payload"]
+    A1["BMP280 Atmospheric Sensor"]
+    A2["Raspberry Camera Module 48MP"]
+    A3["NEO-6M GPS Module"]
+    A4["Raspberry Pi 4 (2GB/4GB RAM)"]
+    A5["AES Encryption Module"]
+    A6["Transimpedance Amplifier"]
+    A7["Laser Diode 1045nm RED"]
 
+    A1 --> A4
+    A2 --> A4
+    A3 --> A4
+    A4 --> A5 --> A6 --> A7
+  end
+
+  %% ==============================
+  %% Laser Link to Ground
+  %% ==============================
+  A7 -- "Laser Beam" --> B1["Satellite Antenna"]
+  B1 -- "LoRa"       --> B2["Ground Station Antenna"]
+
+  %% ==============================
+  %% Ground Station
+  %% ==============================
+  subgraph Ground_Station["Ground Station"]
+    C1["Lens"]
+    C2["Amplifier"]
+    C3["Decoder"]
+    C4["System / PC"]
+
+    B2 --> C1 --> C2 --> C3 --> C4
+  end
+
+  %% ==============================
+  %% Optional Styling
+  %% ==============================
+  classDef sensor     fill:#87CEEB,stroke:#004466,stroke-width:2px
+  classDef processor  fill:#FFD700,stroke:#8B7500,stroke-width:2px
+  classDef security   fill:#FF6347,stroke:#8B0000,stroke-width:2px,font-color:#fff
+  classDef amp        fill:#DA70D6,stroke:#551A8B,stroke-width:2px
+  classDef laser      fill:#FF0000,stroke:#8B0000,stroke-width:2px,font-color:#fff
+  classDef antenna    fill:#90EE90,stroke:#006400,stroke-width:2px
+  classDef lens       fill:#ADD8E6,stroke:#00008B,stroke-width:2px
+  classDef decoder    fill:#FFA500,stroke:#FF8C00,stroke-width:2px
+
+  class A1,A2,A3 sensor
+  class A4,C4 processor
+  class A5 security
+  class A6,C2 amp
+  class A7 laser
+  class B1,B2 antenna
+  class C1 lens
+  class C3 decoder
+
+```
 
 # Laser Communication Details
 - **Operating Wavelength**: 650nm (visible red laser), suitable for short-to-medium-range communication.
